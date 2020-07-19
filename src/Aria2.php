@@ -46,7 +46,7 @@ class Aria2
             'params' => $params
         ];
 
-        $response = $this->client->request('POST', $this->url, ['json' => $request])->toArray(false);
+        $response = $this->client->request('POST', $this->url, ['json' => $request])->toArray();
 
         if (isset($response['error'])) {
             throw new Exception($response['error']['message'], $response['error']['code']);
