@@ -1,0 +1,21 @@
+{
+  "name": "cider/aria2",
+  "description": "Aria2 JSON-RPC Client",
+  "type": "library",
+  "license": "Unlicense",
+  "authors": [
+    {
+      "name": "Bohan Yang",
+      "email": "youthdna@live.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2.5",
+    "symfony/http-client": "5.1.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cider\\Aria2\\": "src/"
+    }
+  }
+}
