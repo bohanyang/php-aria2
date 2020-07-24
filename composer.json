@@ -1,5 +1,5 @@
 {
-  "name": "cider/aria2",
+  "name": "bohan/aria2",
   "description": "Aria2 JSON-RPC Client",
   "type": "library",
   "license": "Unlicense",
@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Cider\\Aria2\\": "src/"
+      "Bohan\\Aria2\\": "src/"
     }
   }
 }
