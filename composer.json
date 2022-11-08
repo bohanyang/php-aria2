@@ -17,5 +17,6 @@
     "psr-4": {
       "Bohan\\Aria2\\": "src/"
     }
-  }
+  },
+  "abandoned": "manyou/aria2"
 }
